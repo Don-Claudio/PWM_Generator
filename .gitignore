@@ -7,3 +7,9 @@ transcript
 vsim.wlf
 *.vcd
 *.vpd
+*.log
+*.ini
+*.do
+*.vho
+*.qpf
+*.qsf
