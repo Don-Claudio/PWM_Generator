@@ -9,10 +9,10 @@ module pwm_tb;
     wire pwm_out;
 
     // Instantiate the DUT (Device Under Test)
-    pwm #(.WIDTH(8)) dut (
+    pwm_generator #(.WIDTH(8)) dut (
         .clk(clk),
-        .reset(reset),
-        .duty(duty),
+        .reset_n(reset),
+        .duty_cycle(duty),
         .pwm_out(pwm_out)
     );
 
